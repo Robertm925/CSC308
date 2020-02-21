@@ -30,6 +30,7 @@ jobs:
       - run:
           command: bundle exec fastlane ios release
           name: Run Fastlane
+          
 orbs:
   rn: react-native-community/react-native@1.0.0
 version: 2.1
